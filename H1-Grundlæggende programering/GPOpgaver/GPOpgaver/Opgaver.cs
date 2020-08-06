@@ -15,8 +15,9 @@ namespace GPOpgaver
         public static void Interchange(ref int x, ref int y)
         {
             //Write your solution here
-            x = 5;
-            y = 5;
+            int tmp = x;
+            x = y;
+            y = tmp;
         }
         /*
         * Introduktion til Algoritmer
@@ -27,6 +28,10 @@ namespace GPOpgaver
         public static void InterchangeTriple(ref int a, ref int b, ref int c)
         {
             //Write your solution here
+            int tmp = a;
+            a = c;
+            c = b;
+            b = tmp;
         }
         /*
          * Introduktion til Algoritmer
@@ -36,8 +41,11 @@ namespace GPOpgaver
          */
         public static bool IsPalindrome(string s)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            char[] palin = s.ToCharArray();
+            Array.Reverse(palin);
+            return true;
         }
         /*
          * Introduktion til Algoritmer
@@ -47,8 +55,14 @@ namespace GPOpgaver
          */
         public static int StepsInLinearSearch(int searchFor, int[] intergerArray)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            for (int i = 0; i < intergerArray.Length; i++)
+            {
+                if (searchFor == intergerArray[i]) return i+1;
+            }
+
+            return -1;
         }
         /*
          * Introduktion til Algoritmer
@@ -60,6 +74,7 @@ namespace GPOpgaver
         {
             throw new NotImplementedException();
             //Write your solution here
+
         }
         /*
          * Introduktion til Algoritmer
