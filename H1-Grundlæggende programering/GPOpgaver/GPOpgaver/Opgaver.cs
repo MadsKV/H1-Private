@@ -15,6 +15,8 @@ namespace GPOpgaver
         public static void Interchange(ref int x, ref int y)
         {
             //Write your solution here
+            x = 5;
+            y = 5;
         }
         /*
         * Introduktion til Algoritmer
