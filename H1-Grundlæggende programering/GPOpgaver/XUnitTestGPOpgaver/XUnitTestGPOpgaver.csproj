@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GPOpgaveløsning\GPOpgaveløsning.csproj" />
+    <ProjectReference Include="..\GPOpgaver\GPOpgaver.csproj" />
   </ItemGroup>
 
 </Project>

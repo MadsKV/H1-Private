@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bNLni9E2ISaiQu64xbubS5FfVcGpnyqjh7bf5BoqEmofxPiAKpvd5d/8IW5aGX0aRKZJhK/H9SFf6LmrFne3CQ==",
+  "dgSpecHash": "jnk3U8M3nNDodWSHqwpNAEXit1o1xIgU3gHkYAZgvo8d4Nx8j1LeM3nSeXkfsagVAxFRWdiHg44P6Li9m/5iBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lkri\\Documents\\Undervisningsmateriale\\GrundlæggendeProgrammering\\Opgaver\\Algorithms\\GPOpgaveløsning\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj",
+  "projectFilePath": "C:\\Users\\lkri\\Desktop\\fixGPOpgaver\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lkri\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\lkri\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

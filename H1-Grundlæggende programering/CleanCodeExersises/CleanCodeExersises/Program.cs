@@ -127,7 +127,7 @@ namespace CleanCodeExersises
             const double Preordered = 200.00;
             const double NotPreordered = 350.00;
             return (isPreordered) ? Preordered : NotPreordered;
-            s
+            
 
         }
         /*

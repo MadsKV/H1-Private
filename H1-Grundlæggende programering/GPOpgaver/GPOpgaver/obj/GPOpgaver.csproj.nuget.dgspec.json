@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elder\\source\\repos\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver.csproj": {}
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elder\\source\\repos\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver.csproj": {
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elder\\source\\repos\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj",
         "projectName": "GPOpgaver",
-        "projectPath": "C:\\Users\\Elder\\source\\repos\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver.csproj",
-        "packagesPath": "C:\\Users\\Elder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elder\\source\\repos\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\obj\\",
+        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj",
+        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Elder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,17 +1,69 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj": {}
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj": {
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj",
-        "projectName": "XUnitTestGPOpgaver",
-        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj",
+        "projectName": "GPOpgaver",
+        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj",
         "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\obj\\",
+        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj",
+        "projectName": "XUnitTestGPOpgaver",
+        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.csproj",
+        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\XUnitTestGPOpgaver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaveløsning\\GPOpgaveløsning.csproj": {
-                "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Lommeregner\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaveløsning\\GPOpgaveløsning.csproj"
+              "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj": {
+                "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\GPOpgaver\\GPOpgaver\\GPOpgaver.csproj"
               }
             }
           }
