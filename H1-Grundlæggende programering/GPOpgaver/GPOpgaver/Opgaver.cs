@@ -59,7 +59,7 @@ namespace GPOpgaver
             //Write your solution here
             for (int i = 0; i < intergerArray.Length; i++)
             {
-                if (searchFor == intergerArray[i]) return i+1;
+                if (searchFor == intergerArray[i]) return i +1;
             }
 
             return -1;
@@ -72,9 +72,28 @@ namespace GPOpgaver
          */
         public static int StepsInBinarySearch(int[] integerArray, int arrayStart, int arrayEnd, int searchFor)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
-
+            if (arrayStart >= arrayEnd)
+            {
+                return +1;
+            }
+            else
+            {
+                int mid = (arrayEnd + arrayStart) / 2;
+                if (searchFor == integerArray[mid])
+                {
+                    return 1;
+                }
+                else if (searchFor < integerArray[mid])
+                {
+                    return 1+ StepsInBinarySearch(integerArray, arrayStart, mid - 1, searchFor);
+                }
+                else
+                {
+                    return 1+ StepsInBinarySearch(integerArray, mid + 1, arrayEnd, searchFor);
+                }
+            }
         }
         /*
          * Introduktion til Algoritmer
@@ -83,8 +102,18 @@ namespace GPOpgaver
          */
         public static int InsertSortedList(List<int> sortedList, int insert)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            for (int i = 0; i < sortedList.Count -1; i++)
+            {
+                if (insert < sortedList[i])
+                {
+                    sortedList.Insert(i, insert);
+                    return i;
+                }
+            }
+            return 1;
+
         }
         /*
          * Exercise 6.
@@ -94,8 +123,15 @@ namespace GPOpgaver
          */
         public static int[] ArrayOfMultiples(int num, int length)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            int[] array = new int[length];
+            for (int i = 1; i <= length; i++)
+            {
+                array[i - 1] = num * i;
+            }
+
+            return array;
         }
         /*
          * Exercise 7.
