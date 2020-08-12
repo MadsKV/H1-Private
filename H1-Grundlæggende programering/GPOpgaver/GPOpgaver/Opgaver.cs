@@ -59,7 +59,7 @@ namespace GPOpgaver
             //Write your solution here
             for (int i = 0; i < intergerArray.Length; i++)
             {
-                if (searchFor == intergerArray[i]) return i +1;
+                if (searchFor == intergerArray[i]) return i + 1;
             }
 
             return -1;
@@ -87,11 +87,11 @@ namespace GPOpgaver
                 }
                 else if (searchFor < integerArray[mid])
                 {
-                    return 1+ StepsInBinarySearch(integerArray, arrayStart, mid - 1, searchFor);
+                    return 1 + StepsInBinarySearch(integerArray, arrayStart, mid - 1, searchFor);
                 }
                 else
                 {
-                    return 1+ StepsInBinarySearch(integerArray, mid + 1, arrayEnd, searchFor);
+                    return 1 + StepsInBinarySearch(integerArray, mid + 1, arrayEnd, searchFor);
                 }
             }
         }
@@ -104,7 +104,7 @@ namespace GPOpgaver
         {
             //throw new NotImplementedException();
             //Write your solution here
-            for (int i = 0; i < sortedList.Count -1; i++)
+            for (int i = 0; i < sortedList.Count - 1; i++)
             {
                 if (insert < sortedList[i])
                 {
@@ -140,8 +140,16 @@ namespace GPOpgaver
          */
         public static int PowerRanger(int power, int min, int max)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            int counter = 0;
+
+            for (int i = 1; (int)Math.Pow(i, power) <= max; i++)
+            {
+                if (Math.Pow(i, power) >= min)
+                    counter++;
+            }
+            return counter;
         }
         /*
          * Exercise 8.
@@ -152,8 +160,18 @@ namespace GPOpgaver
          */
         public static long Factorial(int n)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+
+            //int res = 1, i;
+
+            //for (i = 2; i <= n; i++)
+                //res *= i;
+            //return res;
+
+            return (n == 1 || n == 0) ? 1 : n * Factorial(n - 1);
+
+
         }
         /*
          * Exercise 9.

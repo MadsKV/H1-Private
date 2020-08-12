@@ -7,7 +7,7 @@ namespace GPOpgaver
         static void Main(string[] args)
         {
 
-            Opgaver.ArrayOfMultiples(7, 5);
+            Opgaver.PowerRanger(2, 49, 65);
         }
     }
 }
