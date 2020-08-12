@@ -1,0 +1,12 @@
+h1 {
+    color: #00FF00;
+    background-color: darkgray;
+}
+
+h1.overskrift_2 {
+    color: #FF0000;
+}
+
+h1#with_id{
+    color: #0000FF;
+}

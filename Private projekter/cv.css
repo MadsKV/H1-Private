@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h2{
+    color: rgb(169, 245, 169);
+}
+h4{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    background-color: black;
+    color: gray;
+}
+div.StartDiv{
+    color: darkkhaki;
+}
+
+div.udd p, h4{
+    color: salmon;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
