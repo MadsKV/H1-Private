@@ -23,3 +23,15 @@ div.udd p, h4{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+table.language{
+    color: wheat;
+    text-align: left;
+}
+p.quote{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
