@@ -9,3 +9,5 @@ C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programer
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.AssemblyInfo.cs
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.dll
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.genruntimeconfig.cache
