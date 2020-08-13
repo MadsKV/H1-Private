@@ -47,7 +47,7 @@ namespace ReaktionsSpil
                             TimeSpan duration = startTid - slutTid;
                             Console.WriteLine("\nFrom start to end you spent " + duration);
                             Console.WriteLine("---------------------------------------------------------");
-                            Console.WriteLine("\nWooah! \nThat was pretty Fast, want to try again or are you done for now? \nto start again press (C) or press ANY other key to exit");
+                            Console.WriteLine("\nWooah! \nThat was pretty Fast, want to try again or are you done for now? \nto start again press (ENTER) or press ANY other key to exit");
                             Console.WriteLine("---------------------------------------------------------");
                         }
                     }
