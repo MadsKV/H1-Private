@@ -182,8 +182,19 @@ namespace GPOpgaver
          */
         public static string IncrementString(string txt)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            string[]
+            string digits = new string(txt.Where(char.IsDigit).ToArray());
+            string letters = new string(txt.Where(char.IsLetter).ToArray());
+
+            int number;
+            if (!int.TryParse(digits, out number))
+            {
+                Console.WriteLine("Something weired happened");
+            }
+
+            string newStr = letters + (++number).ToString("D5");
         }
     }
 }

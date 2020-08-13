@@ -1,0 +1,11 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.csprojAssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.pdb
