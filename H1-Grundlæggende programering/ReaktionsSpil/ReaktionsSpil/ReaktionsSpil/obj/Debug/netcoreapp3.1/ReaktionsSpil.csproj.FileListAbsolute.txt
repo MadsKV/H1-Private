@@ -11,3 +11,14 @@ C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programer
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.pdb
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.csproj.CoreCompileInputs.cache
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.genruntimeconfig.cache
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.exe
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.deps.json
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.runtimeconfig.json
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.runtimeconfig.dev.json
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.dll
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\bin\Debug\netcoreapp3.1\ReaktionsSpil.pdb
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.csprojAssemblyReference.cache
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.AssemblyInfoInputs.cache
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.AssemblyInfo.cs
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.dll
+D:\GitHub\H1-Private\H1-Grundlæggende programering\ReaktionsSpil\ReaktionsSpil\ReaktionsSpil\obj\Debug\netcoreapp3.1\ReaktionsSpil.pdb
