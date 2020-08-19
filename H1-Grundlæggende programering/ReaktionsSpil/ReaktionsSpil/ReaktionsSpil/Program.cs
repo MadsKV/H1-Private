@@ -18,7 +18,8 @@ namespace ReaktionsSpil
                     if (Console.ReadKey().Key == ConsoleKey.Enter)
                     {
                         Console.Clear();
-                        Console.WriteLine("Game Started press C to restart when finished!");
+                        Console.WriteLine("Game Started player 1, press C to react!");
+                        Console.WriteLine("Game Started player 2, press p to react!");
                         Random r = new Random();
                         int num = r.Next(1, 8);
 
@@ -45,17 +46,31 @@ namespace ReaktionsSpil
 
                             Console.WriteLine("---------------------------------------------------------");
                             TimeSpan duration = startTid - slutTid;
-                            Console.WriteLine("\nFrom start to end you spent " + duration);
+                            Console.WriteLine("\nPlayer 1 From start to end you spent " + duration);
+                            Console.WriteLine("---------------------------------------------------------");
+                            Console.WriteLine("\nWooah! \nThat was pretty Fast, want to try again or are you done for now? \nto start again press (ENTER) or press ANY other key to exit");
+                            Console.WriteLine("---------------------------------------------------------");
+                        }
+
+                        if (Console.ReadKey().Key == ConsoleKey.P)
+                        {
+                            aTimer.Stop();
+                            aTimer.Dispose();
+                            Console.Clear();
+                            DateTime slutTid = DateTime.Now;
+                            Console.WriteLine("Fast Enough? Game Started at {0:HH:mm:ss.fff}", startTid);
+                            Console.WriteLine("Woah your fast! Time from start to end {0:HH:mm:ss.fff}", slutTid);
+
+
+                            Console.WriteLine("---------------------------------------------------------");
+                            TimeSpan duration = startTid - slutTid;
+                            Console.WriteLine("\nPlayer 2 From start to end you spent " + duration);
                             Console.WriteLine("---------------------------------------------------------");
                             Console.WriteLine("\nWooah! \nThat was pretty Fast, want to try again or are you done for now? \nto start again press (ENTER) or press ANY other key to exit");
                             Console.WriteLine("---------------------------------------------------------");
                         }
                     }
-
-
-                    //Console.ReadKey().Key == ConsoleKey.Y;
-                    //Console.ReadKey().Key == ConsoleKey.N;
-
+                    
                     else
                     {
                         Console.WriteLine("\nClosing Game!");
