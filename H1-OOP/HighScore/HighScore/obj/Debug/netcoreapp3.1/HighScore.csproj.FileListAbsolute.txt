@@ -1,0 +1,13 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\bin\Debug\netcoreapp3.1\HighScore.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\bin\Debug\netcoreapp3.1\HighScore.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\bin\Debug\netcoreapp3.1\HighScore.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\bin\Debug\netcoreapp3.1\HighScore.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\bin\Debug\netcoreapp3.1\HighScore.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\bin\Debug\netcoreapp3.1\HighScore.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\obj\Debug\netcoreapp3.1\HighScore.csprojAssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\obj\Debug\netcoreapp3.1\HighScore.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\obj\Debug\netcoreapp3.1\HighScore.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\obj\Debug\netcoreapp3.1\HighScore.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\obj\Debug\netcoreapp3.1\HighScore.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\obj\Debug\netcoreapp3.1\HighScore.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-OOP\HighScore\HighScore\obj\Debug\netcoreapp3.1\HighScore.genruntimeconfig.cache
