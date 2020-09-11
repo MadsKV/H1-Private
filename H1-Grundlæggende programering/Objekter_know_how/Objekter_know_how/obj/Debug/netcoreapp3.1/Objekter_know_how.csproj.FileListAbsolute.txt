@@ -1,0 +1,24 @@
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.exe
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.deps.json
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.runtimeconfig.json
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.runtimeconfig.dev.json
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.dll
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.pdb
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.csprojAssemblyReference.cache
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.AssemblyInfoInputs.cache
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.AssemblyInfo.cs
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.dll
+C:\Users\Elder\Documents\GitHub\H1-Techcollege\Programming\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\bin\Debug\netcoreapp3.1\Objekter_know_how.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.csprojAssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Objekter_know_how\Objekter_know_how\obj\Debug\netcoreapp3.1\Objekter_know_how.genruntimeconfig.cache

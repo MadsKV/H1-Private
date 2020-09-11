@@ -1,0 +1,10 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\bin\Debug\Form Bank Account.exe.config
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\bin\Debug\Form Bank Account.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\bin\Debug\Form Bank Account.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\obj\Debug\Form Bank Account.csprojAssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\obj\Debug\Form_Bank_Account.Form1.resources
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\obj\Debug\Form_Bank_Account.Properties.Resources.resources
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\obj\Debug\Form Bank Account.csproj.GenerateResource.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\obj\Debug\Form Bank Account.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\obj\Debug\Form Bank Account.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\Forms Bank Account\Form Bank Account\Form Bank Account\obj\Debug\Form Bank Account.pdb
