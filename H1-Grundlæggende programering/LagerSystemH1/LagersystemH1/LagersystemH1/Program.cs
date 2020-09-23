@@ -9,11 +9,19 @@ namespace LagersystemH1
             SqlConnectionStringBuilder builder =
             new SqlConnectionStringBuilder();
 
-            builder.DataSource = @"MADS - V - KLAUSEN\MSSQLSERVER";
+            builder.DataSource = @"MADS-V-KLAUSEN\MSSQLSERVER01";
             builder.InitialCatalog = "Lager(H1)";
             builder.IntegratedSecurity = true;
 
-            SqlConnection Connection = new SqlConnection(builder.ConnectionString);
+            SqlConnection connection = new SqlConnection(builder.ConnectionString);
+
+
+            string sqlInsert = @"INSERT INTO Customers (First_Name, Last_Name, Address, Zip_Code, City)
+            VALUES ('Mads', 'Klausen', 'Ditlev Bergs vej 71,3,9', 9000, 'Aalborg')";
+            connection.Open();
+            SqlCommand command = new SqlCommand(sqlInsert, connection);
+            command.ExecuteNonQuery();
+
         }
     }
 }
