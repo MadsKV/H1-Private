@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using Xunit;
 namespace LagersystemH1
 {
     class Program
@@ -68,26 +69,49 @@ namespace LagersystemH1
                                         = ConsoleColor.Blue;
                                         Console.WriteLine("Enter the credentials of the customer in this format : \n\n" +
                                             ">First name, Last name, Address, Zip Code and their City<");
-                                        string sqlInsert = @"INSERT INTO Customers (First_Name, Last_Name, Address, Zip_Code, City)
-                                        VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
+                                        string CInput = Console.ReadLine();
+                                        Database.insertCustomer(CInput, connection);
+                                        //string sqlInsertC = @"INSERT INTO Customers (First_Name, Last_Name, Address, Zip_Code, City)
+                                        //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
                                         connection.Open();
-                                        SqlCommand command = new SqlCommand(sqlInsert, connection);
-                                        command.ExecuteNonQuery();
+                                        SqlCommand commandNC = new SqlCommand(CInput, connection);
+                                        commandNC.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo2:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
+                                        Console.WriteLine("Enter the Customer ID of the customer you would like to Delete : \n\n");
+                                        string CDelete = Console.ReadLine();
+                                        Database.deleteCustomer(CDelete ,connection);
+                                        //string sqlDeleteC = @"DELETE FROM Customers WHERE Customer_ID = { 0 }";
+                                        connection.Open();
+                                        SqlCommand commandDC = new SqlCommand(CDelete, connection);
+                                        commandDC.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo3:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
+                                        Console.WriteLine("Enter the Customer ID of the customer you would like to Update : \n\n");
+                                        string CUpdate = Console.ReadLine();
+                                        Database.deleteCustomer(CUpdate, connection);
+                                        //string sqlDeleteC = @"UPDATE Customer SET First_Name = '{1}', Last_Name = '{2}', Address = '{3}', Zip_Code = {4}, City = '{5}' WHERE Customer_ID = {0} ";
+                                        connection.Open();
+                                        SqlCommand commandUC = new SqlCommand(CUpdate, connection);
+                                        commandUC.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo4:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
+                                        //Console.WriteLine("Enter the Customer ID of the customer you would like to Update : \n\n");
+                                        string CView = Console.ReadLine();
+                                        Database.deleteCustomer(CView, connection);
+                                        //string sqlDeleteC = @"SELECT * FROM Customer ORDER BY Customer_ID DESC";
+                                        connection.Open();
+                                        SqlCommand commandVC = new SqlCommand(CView, connection);
+                                        commandVC.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo5:
@@ -95,26 +119,8 @@ namespace LagersystemH1
                                         = ConsoleColor.Blue;
                                         break;
                                 }
-                                /*Console.Write("Create New Customer > ");
-                                string input = Console.ReadLine();
-                                Console.Write("Enter the customer credentials > ");*/
-                                string firstName = (Console.ReadLine());
-                                string lastName = (Console.ReadLine());
-                                string address = (Console.ReadLine());
-                                int zip = (Console.Read());
-                                string city = (Console.ReadLine());
-
-                                SqlCommand customercommand = new SqlCommand();
-                                customercommand.ExecuteNonQuery();
-                                //Database.insertCusotmer(firstName, lastName, address, zip, city);
                                 break;
                         }
-                        /*Console.Write("Enter new message > ");
-                        string input = Console.ReadLine();
-                        Console.Write("What author ID is this message connected to? > ");
-
-                        int messagesauthor = int.Parse(Console.ReadLine());
-                        Database.insertMessage(input, messagesauthor);*/
                         break;
 
                     case keyInfo2:
@@ -141,26 +147,52 @@ namespace LagersystemH1
                                         = ConsoleColor.Blue;
                                         Console.WriteLine("Enter the Information about the item in this format : \n\n" +
                                             ">Item name, Item quantity, Item price, Item Order date<");
-                                        string sqlInsert = @"INSERT INTO Items (Item_Name, Item_Quantity, Item,Price, Item_Order_ID)
-                                        VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
+                                        string IInput = Console.ReadLine();
+                                        Database.insertItems(IInput, connection);
+                                        //string sqlInsert = @"INSERT INTO Items (Item_Name, Item_Quantity, Item,Price, Item_Order_ID)
+                                        //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
                                         connection.Open();
-                                        SqlCommand command = new SqlCommand(sqlInsert, connection);
-                                        command.ExecuteNonQuery();
+                                        SqlCommand commandII = new SqlCommand(IInput, connection);
+                                        commandII.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo2:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
+                                        Console.WriteLine("Enter the item ID you want to Delete : \n\n");
+                                        string IDelete = Console.ReadLine();
+                                        Database.deleteItem(IDelete, connection);
+                                        //string sqlInsert = @"INSERT INTO Items (Item_Name, Item_Quantity, Item,Price, Item_Order_ID)
+                                        //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
+                                        connection.Open();
+                                        SqlCommand commandID = new SqlCommand(IDelete, connection);
+                                        commandID.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo3:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
+                                        Console.WriteLine("Enter the item ID you want to Update : \n\n");
+                                        string IUpdate = Console.ReadLine();
+                                        Database.deleteItem(IUpdate, connection);
+                                        //string sqlInsert = @"INSERT INTO Items (Item_Name, Item_Quantity, Item,Price, Item_Order_ID)
+                                        //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
+                                        connection.Open();
+                                        SqlCommand commandIU = new SqlCommand(IUpdate, connection);
+                                        commandIU.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo4:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
+                                        //Console.WriteLine("Enter the item ID you want to Delete : \n\n");
+                                        string IView = Console.ReadLine();
+                                        Database.deleteItem(IView, connection);
+                                        //string sqlInsert = @"INSERT INTO Items (Item_Name, Item_Quantity, Item,Price, Item_Order_ID)
+                                        //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
+                                        connection.Open();
+                                        SqlCommand commandIV = new SqlCommand(IView, connection);
+                                        commandIV.ExecuteNonQuery();
                                         break;
 
                                     case keyInfo5:
@@ -168,18 +200,6 @@ namespace LagersystemH1
                                         = ConsoleColor.Blue;
                                         break;
                                 }
-                                /*Console.Write("Create New Customer > ");
-                                string input = Console.ReadLine();
-                                Console.Write("Enter the customer credentials > ");*/
-                                string firstName = (Console.ReadLine());
-                                string lastName = (Console.ReadLine());
-                                string address = (Console.ReadLine());
-                                int zip = (Console.Read());
-                                string city = (Console.ReadLine());
-
-                                SqlCommand customercommand = new SqlCommand();
-                                customercommand.ExecuteNonQuery();
-                                //Database.insertCusotmer(firstName, lastName, address, zip, city);
                                 break;
                         }
                         break;

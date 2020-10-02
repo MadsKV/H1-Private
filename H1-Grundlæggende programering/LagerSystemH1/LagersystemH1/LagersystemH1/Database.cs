@@ -10,13 +10,25 @@ namespace LagersystemH1
     class Database
     {
         //Insert a new customer into the database.
-        public static void insertCusotmer(string firstName, string lastName, string address, int zip, string city, SqlConnection connection)
+        public static string insertCustomer(string firstName, string lastName, string address, int zip, string city, SqlConnection connection)
         {
+            try
+            {
+
         string sql = @"
         INSERT INTO Customers (First_Name, Last_Name, Address, Zip_Code, City)
         VALUES ('{0}', '{1}', '{2}', {3}, '{4}')";
-        string formatted = string.Format(sql, firstName, lastName, address, zip, city);
-        SqlCommand command = new SqlCommand(formatted, connection);
+            string formatted = string.Format(sql, firstName, lastName, address, zip, city);
+            SqlCommand command = new SqlCommand(formatted, connection);
+
+        int numberOfRowAffected = command.ExecuteNonQuery();
+        return numberOfRowAffected + "Rows was affected.\n";
+            }
+            catch(SqlException e)
+            {
+                Console.WriteLine("SQL exception caught in DeleteById " + e.ToString());
+                return "0 rows affected.\n";
+            }
         }
         //Insert a new Item into the database.
         public static void insertItems(string itemName, int itemQuantity, double itemPrice, int customerId, SqlConnection connection)
