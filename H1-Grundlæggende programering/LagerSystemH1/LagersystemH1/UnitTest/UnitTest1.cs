@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using Xunit;
 
 namespace UnitTest
 {
@@ -13,6 +14,12 @@ namespace UnitTest
         public void Test1()
         {
             Assert.Pass();
+        }
+        
+        [Fact]
+        public void Test2()
+        {
+
         }
     }
 }

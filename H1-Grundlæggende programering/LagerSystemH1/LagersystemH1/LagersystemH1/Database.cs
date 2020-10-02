@@ -7,14 +7,13 @@ using System.Xml.XPath;
 
 namespace LagersystemH1
 {
-    class Database
+    public class Database
     {
         //Insert a new customer into the database.
         public static string insertCustomer(string firstName, string lastName, string address, int zip, string city, SqlConnection connection)
         {
             try
             {
-
         string sql = @"
         INSERT INTO Customers (First_Name, Last_Name, Address, Zip_Code, City)
         VALUES ('{0}', '{1}', '{2}', {3}, '{4}')";

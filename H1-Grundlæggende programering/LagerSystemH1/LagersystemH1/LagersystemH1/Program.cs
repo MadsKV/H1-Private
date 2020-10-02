@@ -3,25 +3,32 @@ using System.Data.SqlClient;
 using Xunit;
 namespace LagersystemH1
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+
+        public static SqlConnection Connection()
         {
             SqlConnectionStringBuilder builder =
             new SqlConnectionStringBuilder();
 
-            builder.DataSource = @"MADS-V-KLAUSEN\MSSQLSERVER01";
+            //builder.DataSource = @"MADS-V-KLAUSEN\MSSQLSERVER01";
+            builder.DataSource = @"DESKTOP-CHHJASV\SQLEXPRESS";
             builder.InitialCatalog = "Lager(H1)";
             builder.IntegratedSecurity = true;
 
             SqlConnection connection = new SqlConnection(builder.ConnectionString);
 
-
+            return connection;
+        }
+        static void Main(string[] args)
+        {
             /*string sqlInsert = @"INSERT INTO Customers (First_Name, Last_Name, Address, Zip_Code, City)
             VALUES ('Mads', 'Klausen', 'Ditlev Bergs vej 71,3,9', 9000, 'Aalborg')";
             connection.Open();
             SqlCommand command = new SqlCommand(sqlInsert, connection);
             command.ExecuteNonQuery();*/
+            SqlConnection connection = Connection();
+
 
             const ConsoleKey keyInfo1 = ConsoleKey.D1;
             const ConsoleKey keyInfo2 = ConsoleKey.D2;
@@ -70,7 +77,11 @@ namespace LagersystemH1
                                         Console.WriteLine("Enter the credentials of the customer in this format : \n\n" +
                                             ">First name, Last name, Address, Zip Code and their City<");
                                         string CInput = Console.ReadLine();
-                                        Database.insertCustomer(CInput, connection);
+                                        string CInput2 = Console.ReadLine();
+                                        string CInput3 = Console.ReadLine();
+                                        int CInput4 = int.Parse(Console.ReadLine());
+                                        string CInput5 = Console.ReadLine();
+                                        Database.insertCustomer(CInput, CInput2, CInput3, CInput4, CInput5, connection);
                                         //string sqlInsertC = @"INSERT INTO Customers (First_Name, Last_Name, Address, Zip_Code, City)
                                         //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
                                         connection.Open();
@@ -148,7 +159,10 @@ namespace LagersystemH1
                                         Console.WriteLine("Enter the Information about the item in this format : \n\n" +
                                             ">Item name, Item quantity, Item price, Item Order date<");
                                         string IInput = Console.ReadLine();
-                                        Database.insertItems(IInput, connection);
+                                        int IInput2 = int.Parse(Console.ReadLine());
+                                        double IInput3 = double.Parse(Console.ReadLine());
+                                        int IInput4 = int.Parse(Console.ReadLine());
+                                        Database.insertItems(IInput, IInput2, IInput3, IInput4, connection);
                                         //string sqlInsert = @"INSERT INTO Items (Item_Name, Item_Quantity, Item,Price, Item_Order_ID)
                                         //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
                                         connection.Open();
