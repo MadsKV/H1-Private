@@ -11,8 +11,8 @@ namespace LagersystemH1
             SqlConnectionStringBuilder builder =
             new SqlConnectionStringBuilder();
 
-            //builder.DataSource = @"MADS-V-KLAUSEN\MSSQLSERVER01";
-            builder.DataSource = @"DESKTOP-CHHJASV\SQLEXPRESS";
+            builder.DataSource = @"MADS-V-KLAUSEN\MSSQLSERVER01";
+            //builder.DataSource = @"DESKTOP-CHHJASV\SQLEXPRESS";
             builder.InitialCatalog = "Lager(H1)";
             builder.IntegratedSecurity = true;
 
@@ -92,7 +92,7 @@ namespace LagersystemH1
                                     case keyInfo2:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
-                                        Console.WriteLine("Enter the Customer ID of the customer you would like to Delete : \n\n");
+                                        Console.WriteLine("Enter the Customer ID of the Customer you would like to Delete : \n\n");
                                         string CDelete = Console.ReadLine();
                                         Database.deleteCustomer(CDelete ,connection);
                                         //string sqlDeleteC = @"DELETE FROM Customers WHERE Customer_ID = { 0 }";
@@ -104,7 +104,7 @@ namespace LagersystemH1
                                     case keyInfo3:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
-                                        Console.WriteLine("Enter the Customer ID of the customer you would like to Update : \n\n");
+                                        Console.WriteLine("Enter the Customer ID of the Customer you would like to Update : \n\n");
                                         string CUpdate = Console.ReadLine();
                                         Database.deleteCustomer(CUpdate, connection);
                                         //string sqlDeleteC = @"UPDATE Customer SET First_Name = '{1}', Last_Name = '{2}', Address = '{3}', Zip_Code = {4}, City = '{5}' WHERE Customer_ID = {0} ";
@@ -116,12 +116,10 @@ namespace LagersystemH1
                                     case keyInfo4:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
-                                        //Console.WriteLine("Enter the Customer ID of the customer you would like to Update : \n\n");
-                                        string CView = Console.ReadLine();
-                                        Database.deleteCustomer(CView, connection);
+                                        Database.SelectAllCustomers(connection);
                                         //string sqlDeleteC = @"SELECT * FROM Customer ORDER BY Customer_ID DESC";
                                         connection.Open();
-                                        SqlCommand commandVC = new SqlCommand(CView, connection);
+                                        SqlCommand commandVC = new SqlCommand("Deap", connection);
                                         commandVC.ExecuteNonQuery();
                                         break;
 
@@ -199,13 +197,9 @@ namespace LagersystemH1
                                     case keyInfo4:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
-                                        //Console.WriteLine("Enter the item ID you want to Delete : \n\n");
-                                        string IView = Console.ReadLine();
-                                        Database.deleteItem(IView, connection);
-                                        //string sqlInsert = @"INSERT INTO Items (Item_Name, Item_Quantity, Item,Price, Item_Order_ID)
-                                        //VALUES ('{0}', '{1}', '{2}', '{3}', '{4}')";
+                                        Database.SelectAllItems(connection);
                                         connection.Open();
-                                        SqlCommand commandIV = new SqlCommand(IView, connection);
+                                        SqlCommand commandIV = new SqlCommand("deap", connection);
                                         commandIV.ExecuteNonQuery();
                                         break;
 
