@@ -1,5 +1,8 @@
 ﻿using System;
 
+/// <summary>
+/// BLIVER IKKE BRUGT!
+/// </summary>
 
 
 namespace Lagersystem.DB
