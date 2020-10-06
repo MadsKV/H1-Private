@@ -110,6 +110,7 @@ namespace LagersystemH1
             Console.ReadKey();
             sdr.Close();
         }
+        //Gives you the option to Search for a specific Customer
         public static void SearchCustomer(SqlConnection  connection, string search)
         {
             string sql = (@"SELECT Customer_ID, First_Name, Last_Name FROM Customers WHERE Last_Name LIKE '%{0}%'");
@@ -123,6 +124,7 @@ namespace LagersystemH1
             Console.ReadKey();
             sdr.Close();
         }
+        //Gives you the option to search for a specific Item
         public static void SearchItem(SqlConnection connection, string search)
         {
             string sql = (@"SELECT Item_ID, Item_Name FROM Items WHERE Item_Name LIKE '%{0}%'");
