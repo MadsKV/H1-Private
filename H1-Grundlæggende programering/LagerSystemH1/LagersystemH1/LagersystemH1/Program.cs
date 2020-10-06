@@ -108,14 +108,14 @@ namespace LagersystemH1
 
                                     case keyInfo4:
                                         Console.ForegroundColor
-                                        = ConsoleColor.Blue;
+                                        = ConsoleColor.Green;
                                         Console.WriteLine("All the current Customers :");
                                         Database.ShowCustomers(connection);
                                         break;
 
                                     case keyInfo5:
                                         Console.ForegroundColor
-                                        = ConsoleColor.Blue;
+                                        = ConsoleColor.Green;
                                         Console.Write("What are you looking for? (Customer Name) > ");
                                         string Search = Console.ReadLine();
                                         Database.SearchCustomer(connection, Search);
@@ -181,14 +181,14 @@ namespace LagersystemH1
 
                                 case keyInfo4:
                                     Console.ForegroundColor
-                                    = ConsoleColor.Blue;
+                                    = ConsoleColor.Green;
                                     Console.WriteLine("All the current Items in stock :");
                                     Database.ShowProducts(connection);
                                     break;
 
                                 case keyInfo5:
                                     Console.ForegroundColor
-                                    = ConsoleColor.Blue;
+                                    = ConsoleColor.Green;
                                     Console.Write("What are you looking for? (Item Name) > ");
                                     string Search = Console.ReadLine();
                                     Database.SearchItem(connection, Search);
