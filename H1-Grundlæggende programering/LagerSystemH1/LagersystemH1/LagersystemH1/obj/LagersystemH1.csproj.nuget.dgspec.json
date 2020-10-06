@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {}
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
         "projectName": "LagersystemH1",
-        "projectPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
-        "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\obj\\",
+        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
+        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

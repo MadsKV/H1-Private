@@ -40,3 +40,7 @@ D:\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\
 D:\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\LagersystemH1\bin\Debug\netcoreapp3.1\xunit.assert.dll
 D:\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\LagersystemH1\bin\Debug\netcoreapp3.1\xunit.core.dll
 D:\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\LagersystemH1\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\LagersystemH1\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\LagersystemH1\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\LagersystemH1\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\H1-Private\H1-Grundlæggende programering\LagerSystemH1\LagersystemH1\LagersystemH1\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
