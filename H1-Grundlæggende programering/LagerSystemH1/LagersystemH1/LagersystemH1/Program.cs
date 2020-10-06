@@ -29,6 +29,7 @@ namespace LagersystemH1
             const ConsoleKey keyInfo3 = ConsoleKey.D3;
             const ConsoleKey keyInfo4 = ConsoleKey.D4;
             const ConsoleKey keyInfo5 = ConsoleKey.D5;
+            const ConsoleKey keyInfo6 = ConsoleKey.D6;
 
             while (true)
             {
@@ -59,7 +60,8 @@ namespace LagersystemH1
                                 "Press 2 :To Delete a current Customer account.\n" +
                                 "Press 3 :To Update a current Customer account.\n" +
                                 "Press 4 :To View the current list of Customers.\n" +
-                                "Press 5 :To EXIT.\n");
+                                "Press 5 :To Search for a Customer. \n" +
+                                "Press 6 :To EXIT.\n");
 
                                 pressedKey = PressedKey();
 
@@ -114,6 +116,14 @@ namespace LagersystemH1
                                     case keyInfo5:
                                         Console.ForegroundColor
                                         = ConsoleColor.Blue;
+                                        Console.Write("What are you looking for? (Customer Name) > ");
+                                        string Search = Console.ReadLine();
+                                        Database.SearchCustomer(connection, Search);
+                                        break;
+
+                                    case keyInfo6:
+                                        Console.ForegroundColor
+                                        = ConsoleColor.Blue;
                                         break;
                                 }
                                 break;
@@ -129,7 +139,8 @@ namespace LagersystemH1
                         "Press 2 :To Delete a current Item in stock.\n" +
                         "Press 3 :To Update a current Item in stock.\n" +
                         "Press 4 :To View the current list of Items in stock.\n" +
-                        "Press 5 :To EXIT.\n");
+                        "Press 5 :To Search for a Item.\n" +
+                        "Press 6 :To EXIT.\n");
 
                         pressedKey = PressedKey();
 
@@ -178,12 +189,19 @@ namespace LagersystemH1
                                 case keyInfo5:
                                     Console.ForegroundColor
                                     = ConsoleColor.Blue;
+                                    Console.Write("What are you looking for? (Item Name) > ");
+                                    string Search = Console.ReadLine();
+                                    Database.SearchItem(connection, Search);
+                                    break;
+
+                                case keyInfo6:
+                                    Console.ForegroundColor
+                                    = ConsoleColor.Blue;
                                     break;
                             }
                             break;
-
-                    case keyInfo3:
-                        break;
+                      case keyInfo3:
+                      break;
                 }
             }
             ConsoleKey PressedKey()
@@ -192,7 +210,7 @@ namespace LagersystemH1
                 {
                     while (!Console.KeyAvailable) ;
                     ConsoleKey pressed = Console.ReadKey(true).Key;
-                    if (pressed == keyInfo1 || pressed == keyInfo2 || pressed == keyInfo3 || pressed == keyInfo4 || pressed == keyInfo5)
+                    if (pressed == keyInfo1 || pressed == keyInfo2 || pressed == keyInfo3 || pressed == keyInfo4 || pressed == keyInfo5 || pressed == keyInfo6)
                         return pressed;
                     Console.Clear();
                 } while (true);

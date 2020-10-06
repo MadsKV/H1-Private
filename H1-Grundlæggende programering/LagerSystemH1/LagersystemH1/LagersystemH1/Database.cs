@@ -84,36 +84,10 @@ namespace LagersystemH1
             SqlCommand command = new SqlCommand(formatted, connection);
             command.ExecuteNonQuery();
         }
-        //Displays a list of all current items in stock.
-        public static void SelectAllItems(SqlConnection connection)
-        {
-            string sql = @"
-            SELECT * FROM Items
-            ORDER BY Item_ID DESC";
-            string formatted = string.Format(sql);
-            SqlCommand command = new SqlCommand(formatted, connection);
-            command.ExecuteNonQuery();
-            Console.WriteLine(formatted);
-            Console.ReadLine();
-
-        }
-        //Displays a list of all current customers.
-        public static void SelectAllCustomers(SqlConnection connection)
-        {
-            string sql = @"
-            SELECT * FROM Customers
-            ORDER BY Customer_ID DESC";
-            string formatted = string.Format(sql);
-            SqlCommand command = new SqlCommand(formatted, connection);
-            command.ExecuteNonQuery();
-            Console.WriteLine(formatted);
-            Console.ReadLine();
-        }
+        //Shows all the items/products in the table
         public static void ShowProducts(SqlConnection conn)
         {
             string SQL = (@"SELECT Item_ID, Item_Name, Item_Quantity, Item_Price FROM Items");
-                          //left join SubCategories on Products.ProductSubCategoryID=SubCategories.SubCategoryID
-                          //left join Employees on Products.ProductEmployeeID=Employees.EmployeeID");
             SqlCommand command = new SqlCommand(SQL, conn);
             SqlDataReader sdr = command.ExecuteReader();
             while (sdr.Read())
@@ -123,16 +97,41 @@ namespace LagersystemH1
             Console.ReadKey();
             sdr.Close();
         }
+        //Shows all the customers in the table
         public static void ShowCustomers(SqlConnection conn)
         {
             string SQL = (@"SELECT Customer_ID, First_Name, Last_Name, Address, Zip_Code, City FROM Customers");
-            //left join SubCategories on Products.ProductSubCategoryID=SubCategories.SubCategoryID
-            //left join Employees on Products.ProductEmployeeID=Employees.EmployeeID");
             SqlCommand command = new SqlCommand(SQL, conn);
             SqlDataReader sdr = command.ExecuteReader();
             while (sdr.Read())
             {
                 Console.WriteLine("{0,-5} {1,-20} {2,-10} {3,-15} {4,-15} {5,-15}", sdr[0], sdr[1], sdr[2], sdr[3], sdr[4], sdr[5]);
+            }
+            Console.ReadKey();
+            sdr.Close();
+        }
+        public static void SearchCustomer(SqlConnection  connection, string search)
+        {
+            string sql = (@"SELECT Customer_ID, First_Name, Last_Name FROM Customers WHERE Last_Name LIKE '%{0}%'");
+            string formatted = string.Format(sql, search);
+            SqlCommand command = new SqlCommand(formatted, connection);
+            SqlDataReader sdr = command.ExecuteReader();
+            while (sdr.Read())
+            {
+                Console.WriteLine("{0,-5} {1,-20} {2,-10} ", sdr[0], sdr[1], sdr[2]);
+            }
+            Console.ReadKey();
+            sdr.Close();
+        }
+        public static void SearchItem(SqlConnection connection, string search)
+        {
+            string sql = (@"SELECT Item_ID, Item_Name FROM Items WHERE Item_Name LIKE '%{0}%'");
+            string formatted = string.Format(sql, search);
+            SqlCommand command = new SqlCommand(formatted, connection);
+            SqlDataReader sdr = command.ExecuteReader();
+            while (sdr.Read())
+            {
+                Console.WriteLine("{0,-5} {1,-20}", sdr[0], sdr[1]);
             }
             Console.ReadKey();
             sdr.Close();
