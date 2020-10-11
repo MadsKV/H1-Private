@@ -7286,19 +7286,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mads\\.nuget\\packages\\": {}
+    "C:\\Users\\MadsV\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
       "projectName": "XUnitTestProject",
-      "projectPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
-      "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\obj\\",
+      "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
+      "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7311,8 +7311,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
-              "projectPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj"
+            "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
+              "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj"
             }
           }
         }
@@ -7360,7 +7360,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

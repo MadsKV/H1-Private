@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {}
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-OOP\\Polymorfi\\Polymorfi opgve\\Polymorfi opgve\\Polymorfi opgve.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-OOP\\Polymorfi\\Polymorfi opgve\\Polymorfi opgve\\Polymorfi opgve.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
-        "projectName": "LagersystemH1",
-        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-OOP\\Polymorfi\\Polymorfi opgve\\Polymorfi opgve\\Polymorfi opgve.csproj",
+        "projectName": "Polymorfi opgve",
+        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-OOP\\Polymorfi\\Polymorfi opgve\\Polymorfi opgve\\Polymorfi opgve.csproj",
         "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\obj\\",
+        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-OOP\\Polymorfi\\Polymorfi opgve\\Polymorfi opgve\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,16 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
