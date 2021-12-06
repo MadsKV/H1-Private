@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj": {}
+    "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
+    "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
+        "projectUniqueName": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
         "projectName": "LagersystemH1",
-        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
-        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\obj\\",
+        "projectPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj",
+        "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
@@ -62,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj": {
+    "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
+        "projectUniqueName": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
         "projectName": "XUnitTestProject",
-        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
-        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\obj\\",
+        "projectPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\XUnitTestProject.csproj",
+        "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\XUnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,9 +90,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
-                "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj"
+              "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj": {
+                "projectPath": "D:\\GitHub\\H1-Private\\H1-Grundlæggende programering\\LagerSystemH1\\LagersystemH1\\LagersystemH1\\LagersystemH1.csproj"
               }
             }
           }
@@ -103,6 +106,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -138,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

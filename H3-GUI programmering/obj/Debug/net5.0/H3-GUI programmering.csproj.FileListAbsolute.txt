@@ -1,0 +1,16 @@
+D:\GitHub\H-Private\H3-GUI programmering\bin\Debug\net5.0\H3-GUI programmering.exe
+D:\GitHub\H-Private\H3-GUI programmering\bin\Debug\net5.0\H3-GUI programmering.deps.json
+D:\GitHub\H-Private\H3-GUI programmering\bin\Debug\net5.0\H3-GUI programmering.runtimeconfig.json
+D:\GitHub\H-Private\H3-GUI programmering\bin\Debug\net5.0\H3-GUI programmering.runtimeconfig.dev.json
+D:\GitHub\H-Private\H3-GUI programmering\bin\Debug\net5.0\H3-GUI programmering.dll
+D:\GitHub\H-Private\H3-GUI programmering\bin\Debug\net5.0\ref\H3-GUI programmering.dll
+D:\GitHub\H-Private\H3-GUI programmering\bin\Debug\net5.0\H3-GUI programmering.pdb
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.csproj.AssemblyReference.cache
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.AssemblyInfoInputs.cache
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.AssemblyInfo.cs
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.csproj.CoreCompileInputs.cache
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.dll
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\ref\H3-GUI programmering.dll
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.pdb
+D:\GitHub\H-Private\H3-GUI programmering\obj\Debug\net5.0\H3-GUI programmering.genruntimeconfig.cache

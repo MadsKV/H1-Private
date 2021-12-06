@@ -1,0 +1,18 @@
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.csproj.AssemblyReference.cache
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.AssemblyInfoInputs.cache
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.AssemblyInfo.cs
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.csproj.CoreCompileInputs.cache
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\GUI - Webserver.exe
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\GUI - Webserver.deps.json
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\GUI - Webserver.runtimeconfig.json
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\GUI - Webserver.runtimeconfig.dev.json
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\GUI - Webserver.dll
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\ref\GUI - Webserver.dll
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\GUI - Webserver.pdb
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.dll
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\ref\GUI - Webserver.dll
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.pdb
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\obj\Debug\net5.0\GUI - Webserver.genruntimeconfig.cache
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\Index.html
+D:\GitHub\H-Private\H3-GUI programmering\GUI - Webserver\GUI - Webserver\bin\Debug\net5.0\Stylesheet.css
